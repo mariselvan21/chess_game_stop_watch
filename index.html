@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CHESS GAME TIMER</h1>
+    <section class="chess_timer">
+        <div class="timer_display_container">
+            <div class="display_timer">
+                <div class="a_display">
+                    <span class="min" id="a_min" style="font-size: 50px;">:</span>
+                    <span class="sec" id="a_sec" style="font-size: 50px;"></span>
+                </div>
+                <div class="b_display">
+                    <span class="min" id="b_min" style="font-size: 50px;">:</span>
+                    <span class="sec" id="b_sec" style="font-size: 50px;"></span>
+                </div>
+            </div>
+            <div class="swap_button">
+                <button id="swap">SWAP</button>
+            </div>
+            <hr>
+        </div>
+        
+        <div class="timer_control_container">
+            <div class="select_min_level">
+                <input list="select_min" class="select" placeholder="select minutes value" >
+                <datalist id="select_min">
+                    <option value="5">
+                    <option value="20 "> 
+                    <option value="30"> 
+                </datalist>
+
+                <select name="" id="select">
+                    <option value="1">123</option>
+                    <option value="2">26785</option>
+                    <option value="3">357</option>
+                </select>
+            </div>
+            <div class="start_button">
+                <button class="start" id="btn">START</button>
+            </div>
+            <div class="reset_button">
+                <button class="reset">RESET</button>
+            </div>
+        </div>
+    </section>
+   
+    
+
+    <script src="chess_game_stop_watch.js"></script>
+</body>
+</html>

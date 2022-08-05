@@ -1,0 +1,68 @@
+body
+{
+    background-color: blue;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.chess_timer
+{
+    background-color: red;
+    width: 40%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 250px;
+    margin-top: 70px;
+}
+.timer_display_container{
+    height: 175px;    
+}
+.display_timer{
+    display: flex;
+    height: 100px ;
+    justify-content: space-around;
+}
+#swap
+{
+    height: 30px;
+    width: 150px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    color:green;
+    font-size: 20px;
+}
+.swap_button
+{
+    padding-left: 200px;
+}
+.timer_control_container{
+    display: flex;
+    justify-content: space-around;
+}
+.select
+{
+    height: 25px;
+    font-size: 20px;
+    background-color: yellow;
+    color: green;
+    border-radius: 5px;
+}
+.start
+{
+    height: 25px;
+    font-size: 20px;
+    background-color: yellow;
+    color: green;
+    border-radius: 5px;
+}
+.reset
+{
+    height: 25px;
+    font-size: 20px;
+    background-color: yellow;
+    color: green;
+    border-radius: 5px;
+}
